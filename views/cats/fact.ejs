@@ -1,0 +1,14 @@
+<%- include('../partials/head') %>
+<hr>
+    <div>
+    <!-- If we don't stringify the data, we'll just see [object Object] - see Further Study section -->
+        <%= JSON.stringify(factData.fact) %>
+    </div>
+    <div>
+    <!-- GET ANOTHER CAT FACT -->
+        <a href="/cats/fact">Get Another Fact</a>
+    </div>
+</div>
+</body>
+
+<%- include('../partials/footer') %>
